@@ -13,7 +13,7 @@
 		183ADC5522AE243400196FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183ADC5422AE243400196FE1 /* Assets.xcassets */; };
 		183ADC5822AE243400196FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183ADC5622AE243400196FE1 /* LaunchScreen.storyboard */; };
 		183ADC6022AE2C1800196FE1 /* LeoModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183ADC5F22AE2C1800196FE1 /* LeoModifiers.swift */; };
-		183ADC6222AE327C00196FE1 /* StructToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183ADC6122AE327C00196FE1 /* StructToJson.swift */; };
+		183ADC6622AE535500196FE1 /* some.xml in Resources */ = {isa = PBXBuildFile; fileRef = 183ADC6522AE535500196FE1 /* some.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,8 @@
 		183ADC5722AE243400196FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183ADC5922AE243400196FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183ADC5F22AE2C1800196FE1 /* LeoModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoModifiers.swift; sourceTree = "<group>"; };
-		183ADC6122AE327C00196FE1 /* StructToJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructToJson.swift; sourceTree = "<group>"; };
+		183ADC6522AE535500196FE1 /* some.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = some.xml; sourceTree = "<group>"; };
+		183ADC6722AE775C00196FE1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +61,9 @@
 			children = (
 				183ADC4D22AE243000196FE1 /* AppDelegate.swift */,
 				183ADC4F22AE243000196FE1 /* ViewController.swift */,
+				183ADC6722AE775C00196FE1 /* README.md */,
 				183ADC5F22AE2C1800196FE1 /* LeoModifiers.swift */,
-				183ADC6122AE327C00196FE1 /* StructToJson.swift */,
+				183ADC6522AE535500196FE1 /* some.xml */,
 				183ADC5122AE243000196FE1 /* Main.storyboard */,
 				183ADC5422AE243400196FE1 /* Assets.xcassets */,
 				183ADC5622AE243400196FE1 /* LaunchScreen.storyboard */,
@@ -131,6 +133,7 @@
 				183ADC5822AE243400196FE1 /* LaunchScreen.storyboard in Resources */,
 				183ADC5522AE243400196FE1 /* Assets.xcassets in Resources */,
 				183ADC5322AE243000196FE1 /* Main.storyboard in Resources */,
+				183ADC6622AE535500196FE1 /* some.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +147,6 @@
 				183ADC5022AE243000196FE1 /* ViewController.swift in Sources */,
 				183ADC4E22AE243000196FE1 /* AppDelegate.swift in Sources */,
 				183ADC6022AE2C1800196FE1 /* LeoModifiers.swift in Sources */,
-				183ADC6222AE327C00196FE1 /* StructToJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

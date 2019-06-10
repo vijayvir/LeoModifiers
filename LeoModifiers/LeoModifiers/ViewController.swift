@@ -43,6 +43,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
        Person().leoMake()
         
+        Person().withAwesome(true)
+        .withName("SomeName")
+        .withParent(SomeParent())
+        .end()
+        
     }
 
 
