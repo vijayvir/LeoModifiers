@@ -6,7 +6,7 @@ LeoModifiers : This class will create the modifier function of any class from it
  * Confirm any class to  LeoModifiers
 ```Swift 
 
-class Person : LeoModifiers  {  // Confirm LeoModifiers protocol 
+class Person : LeoModifable  {  // Confirm LeoModifiers protocol 
 var name = "Sansa Stark"
 var awesome = true
 var parent : SomeParent? 
@@ -43,9 +43,12 @@ func end(){
 
 ### console Code 
 ``` 
-Person().withAwesome(true)
+let some =  Person().withAwesome(true)
 .withName("SomeName")
+.withSomeInterger(3)
+.withSomeDictiona(["someKey":"dsadsa"])
 .withParent(SomeParent())
-.end()
+
+print(some.someDictiona)
 
 ```

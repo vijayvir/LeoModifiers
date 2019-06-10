@@ -12,27 +12,36 @@ class SomeParent {
     var some1 : String =  ""
 }
 
-class Person : LeoModifiers  {
+class Person : LeoModifable  {
     var name = "Sansa Stark"
     var awesome = true
+    var someInterger : Int?
+    var someDictiona : [String : Any]?
     var parent : SomeParent? 
 }
 
-extension Person {
-    func withName(_ name : String) -> Person {
+extension LeoModifiers.Person {
+    func withName(_ name : String) -> LeoModifiers.Person {
         self.name = name
         return self
     }
-    func withAwesome(_ awesome : Bool) -> Person {
+    func withAwesome(_ awesome : Bool) -> LeoModifiers.Person {
         self.awesome = awesome
         return self
     }
-    func withParent(_ parent : Optional<SomeParent>) -> Person {
+    func withSomeInterger(_ someInterger : Optional<Int>) -> LeoModifiers.Person {
+        self.someInterger = someInterger
+        return self
+    }
+    func withSomeDictiona(_ someDictiona : Optional<Dictionary<String, Any>>) -> LeoModifiers.Person {
+        self.someDictiona = someDictiona
+        return self
+    }
+    func withParent(_ parent : Optional<SomeParent>) -> LeoModifiers.Person {
         self.parent = parent
         return self
     }
     func end(){
-        
     }
 }
 
@@ -43,10 +52,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
        Person().leoMake()
         
-        Person().withAwesome(true)
+       let some =  Person().withAwesome(true)
         .withName("SomeName")
+        .withSomeInterger(3)
+        .withSomeDictiona(["someKey":"dsadsa"])
         .withParent(SomeParent())
-        .end()
+        
+        print(some.someDictiona)
         
     }
 

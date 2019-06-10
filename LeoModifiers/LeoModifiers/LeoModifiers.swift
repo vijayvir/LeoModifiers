@@ -7,7 +7,7 @@
 //
 
 import Foundation
-protocol LeoModifiers {
+protocol LeoModifable {
 }
 
 import Foundation
@@ -27,7 +27,7 @@ extension StringProtocol {
     }
 }
 
-extension LeoModifiers {
+extension LeoModifable {
     func leoMake( isRoot : Bool = true ){
         let classType  =   isRoot ? String(describing: self) : "\(type(of: self))"
         
