@@ -1,6 +1,11 @@
 # LeoModifiers
 LeoModifiers : This class will create the modifier function of any class from its properties.
 
+### Builder pattern : 
+All the properties are set  by  a series of chained method calls. It have its own features like  Abstraction 
+
+
+
 ### How to use 
 
  * Confirm any class to  LeoModifable
