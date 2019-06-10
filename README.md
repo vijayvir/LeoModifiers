@@ -3,7 +3,7 @@ LeoModifiers : This class will create the modifier function of any class from it
 
 ### How to use 
 
- * Confirm any class to  LeoModifiers
+ * Confirm any class to  LeoModifable
 ```Swift 
 
 class Person : LeoModifable  {  // Confirm LeoModifiers protocol 
@@ -42,7 +42,7 @@ func end(){
 ```
 
 ### console Code 
-``` 
+```Swift
 let some =  Person().withAwesome(true)
 .withName("SomeName")
 .withSomeInterger(3)
