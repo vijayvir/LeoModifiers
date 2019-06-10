@@ -9,6 +9,8 @@ LeoModifiers : This class will create the modifier function of any class from it
 class Person : LeoModifable  {  // Confirm LeoModifiers protocol 
 var name = "Sansa Stark"
 var awesome = true
+var someInterger : Int?
+var someDictiona : [String : Any]?
 var parent : SomeParent? 
 }
 
