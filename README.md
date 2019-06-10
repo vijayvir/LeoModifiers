@@ -56,7 +56,7 @@ func end(){
 }
 ```
 
-### console Code 
+###  Usage of builder pattern in chaining. 
 ```Swift
 let some =  Person().withAwesome(true)
 .withName("SomeName")
