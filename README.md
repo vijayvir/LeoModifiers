@@ -39,6 +39,14 @@ func withAwesome(_ awesome : Bool) -> LeoModifiers.Person {
 self.awesome = awesome
 return self
 }
+func withSomeInterger(_ someInterger : Optional<Int>) -> LeoModifiers.Person {
+self.someInterger = someInterger
+return self
+}
+func withSomeDictiona(_ someDictiona : Optional<Dictionary<String, Any>>) -> LeoModifiers.Person {
+self.someDictiona = someDictiona
+return self
+}
 func withParent(_ parent : Optional<SomeParent>) -> LeoModifiers.Person {
 self.parent = parent
 return self
