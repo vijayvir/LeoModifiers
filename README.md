@@ -11,7 +11,7 @@ All the properties are set  by  a series of chained method calls. It have its ow
  * Confirm any class to  LeoModifable
 ```Swift 
 
-class Person : LeoModifable  {  // Confirm LeoModifiers protocol 
+class Person : LeoModifable  {  // Confirm LeoModifable protocol 
 var name = "Sansa Stark"
 var awesome = true
 var someInterger : Int?

@@ -45,20 +45,28 @@ extension LeoModifiers.Person {
     }
 }
 
+class CityModel  : LeoModifable{
+    var index : Int =  0
+    var name : String?
+    var pincode : String?
+    var website : String?
+    var color : UIColor  = .blue
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-       Person().leoMake()
+        CityModel().leoMake(isRoot : false)
         
-       let some =  Person().withAwesome(true)
-        .withName("SomeName")
-        .withSomeInterger(3)
-        .withSomeDictiona(["someKey":"dsadsa"])
-        .withParent(SomeParent())
-        
-        print(some.someDictiona)
+//       let some =  Person().withAwesome(true)
+//        .withName("SomeName")
+//        .withSomeInterger(3)
+//        .withSomeDictiona(["someKey":"dsadsa"])
+//        .withParent(SomeParent())
+//
+//        print(some.someDictiona)
         
     }
 
